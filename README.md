@@ -14,6 +14,3 @@ Some Android devices and custom dialer apps block the classic dialer codes used 
 
 - Android 7.0 (Nougat) or higher.
 
-## License
-
-This project is licensed under the Apache License, Version 2.0.
