@@ -39,4 +39,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh release create "v${{ steps.get_version.outputs.version }}" app/build/outputs/apk/release/app-release.apk --title "Release v${{ steps.get_version.outputs.version }}" --notes "Automated release of Network application." || true
+          gh release create "v${{ steps.get_version.outputs.version }}" app/build/outputs/apk/release/app-release.apk --title "Release v${{ steps.get_version.outputs.version }}" --notes "Automated release of Network application." || gh release upload "v${{ steps.get_version.outputs.version }}" app/build/outputs/apk/release/app-release.apk --clobber
