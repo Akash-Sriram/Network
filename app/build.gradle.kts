@@ -8,7 +8,7 @@ android {
     defaultConfig {
         applicationId = "de.mangelow.network"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 4
         versionName = "1.03"
     }
@@ -56,6 +56,5 @@ kotlin {
 }
 
 dependencies {
-  // This simple app only uses standard platform APIs, so we only need core-ktx
   implementation(libs.androidx.core.ktx)
 }
