@@ -9,8 +9,8 @@ android {
         applicationId = "de.mangelow.network"
         minSdk = 24
         targetSdk = 35
-        versionCode = 4
-        versionName = "1.03"
+        versionCode = 5
+        versionName = "1.04"
     }
 
     signingConfigs {
